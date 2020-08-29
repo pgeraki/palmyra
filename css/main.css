@@ -98,7 +98,7 @@ body {
 @media (min-width:768px){
     .logo{text-align:left;}
     .menu{text-align:right; margin-top:0rem; margin-bottom:2.75rem;}
-    .menu-item{margin-left:1em; margin-right:0em;}
+    .menu-item{margin-left:0.6em; margin-right:0em;}
 }
 
 @media (min-width:960px){
