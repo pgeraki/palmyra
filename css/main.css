@@ -87,6 +87,11 @@ a:hover {
     padding-right:1em;
 }
 
+@media (min-width: 576px){
+  .img-col-left{padding-right:0}
+  .img-col-left{padding-left:0}
+}
+
 .img-row{
     padding-top:1em;
     padding-bottom:1em;
