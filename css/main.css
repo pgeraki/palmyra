@@ -74,7 +74,8 @@ a:hover {
 }
 
 @media (min-width:960px){
-    .project-description{margin-left:2rem;}
+  .body{margin:auto;}
+  .project-description{margin-left:2rem;}
 }
 
 .img-col-right{
@@ -89,7 +90,7 @@ a:hover {
 
 @media (min-width: 576px){
   .img-col-left{padding-right:1em;}
-  .img-col-left{padding-left:1em;}
+  .img-col-right{padding-left:1em;}
 }
 
 .img-row{
