@@ -79,17 +79,17 @@ a:hover {
 
 .img-col-right{
     box-sizing: border-box;
-    padding-left:1em;
+    padding-left:0em;
 }
 
 .img-col-left{
     box-sizing: border-box;
-    padding-right:1em;
+    padding-right:0em;
 }
 
 @media (min-width: 576px){
-  .img-col-left{padding-right:0;}
-  .img-col-left{padding-left:0;}
+  .img-col-left{padding-right:1em;}
+  .img-col-left{padding-left:1em;}
 }
 
 .img-row{
