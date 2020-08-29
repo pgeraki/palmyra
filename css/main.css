@@ -20,7 +20,7 @@ body {
 
 img {
   width: 100%;
-  height: auto;
+  object-fit:scale-down;
 }
 
 .banner {
@@ -79,6 +79,8 @@ img {
 }
 
 .img-row{
+    display: flex;
+    align-items: flex-start;
     padding-top:1em;
     padding-bottom:1em;
 }
