@@ -77,7 +77,7 @@ a:hover {
     .project-description{margin-left:2rem;}
 }
 
-.double-image{width=100%; display:table; table-layout:fixed;
+.double-image{display:table; table-layout:fixed;
 }
 
 .image-column{display:table-cell;
