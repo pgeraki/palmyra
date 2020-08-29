@@ -5,7 +5,7 @@
 
 a {
     text-decoration: none;
-    color: #555555;
+    color: #333333;
 }
 
 a:hover {
@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    height:8rem;
+    height:4rem;
     text-align:left;
 }
 
