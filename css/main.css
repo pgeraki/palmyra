@@ -21,6 +21,7 @@ body {
 .logo {
     height:4rem;
     text-align:left;
+    margin-bottom:2rem;
 }
 
 .logo img{
