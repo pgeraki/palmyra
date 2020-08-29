@@ -24,7 +24,8 @@ body {
 }
 
 .logo img{
-    height:8rem;
+    max-height:8rem;
+    max-width:100%;
     object-fit:scale-down;
 }
 
