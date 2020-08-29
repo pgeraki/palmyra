@@ -18,20 +18,19 @@ body {
     font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
 }
 
-img {
-  width: 100%;
-  object-fit:scale-down;
-}
-
 .banner {
     margin-bottom:2rem;
 }
 
 .logo {
-    font-size:3rem;
-    line-height:3rem;
+    height:8rem;
     text-align:left;
     margin-bottom:1.5rem;
+}
+
+.logo img{
+    height:8rem;
+    object-fit:scale-down;
 }
 
 .menu {
@@ -83,6 +82,11 @@ img {
     align-items: flex-start;
     padding-top:1em;
     padding-bottom:1em;
+}
+
+.img-row img {
+  width: 100%;
+  object-fit:scale-down;
 }
 
 @media (min-width: 576px){
