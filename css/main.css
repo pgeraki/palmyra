@@ -8,9 +8,7 @@ body {
     margin: 2em;
     text-align: left;
     color: #111111;
-    font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;
-    font-weight:200;
-    font-style:normal;  
+    font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
 }
 
 a {
@@ -40,35 +38,29 @@ a:hover {
     text-align:left;
 }
 
+.menu-item {
+    margin-left:0;
+    margin-right:0;
+}
+
 @media (min-width:768px){
     .logo{text-align:left;}
-}
-
-@media (min-width:768px){
     .menu{text-align:right;}
-}
-
-.menu-item {
-    margin-left:0.5rem;
-    margin-right:0.5rem;
+    .menu-item{margin-left:0.5rem;}
 }
 
 .project-title{
     font-size:2rem;
-    font-weight:400;
     line-height:1rem;
-    font-family: 'Yu Gothic', sans-serif;
 }
 
 .project-subtitle{
-    font-weight:300;
-    font-size:1.5rem;
+    font-weight:200;
+    font-size:1.4rem;
     line-height:1.5rem;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .project-paragraph{
-    font-weight:200;
     line-height:1.5rem;
     text-align:justify;
     text-justify:auto;
