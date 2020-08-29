@@ -14,10 +14,7 @@ a:hover {
 }	
 
 body {
-    min-height: 100%;
     margin: 2em;
-    text-align: left;
-    color: #111111;
     font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
 }
 
