@@ -87,6 +87,11 @@ a:hover {
     padding-right:1em;
 }
 
+.img-row{
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
 .portrait{
     width:100%;
 }
