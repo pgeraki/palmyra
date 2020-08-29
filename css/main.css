@@ -3,14 +3,6 @@
   src: url('../fonts/apercu_light.ttf');
 }
 
-body {
-    min-height: 100%;
-    margin: 2em;
-    text-align: left;
-    color: #111111;
-    font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
-}
-
 a {
     text-decoration: none;
     color: #555555;
@@ -20,6 +12,18 @@ a:hover {
     text-decoration: none;
     color: #BBBBBB;
 }	
+
+body {
+    min-height: 100%;
+    margin: 2em;
+    text-align: left;
+    color: #111111;
+    font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
+}
+
+img {
+  max-width:100%;
+}
 
 .banner {
     margin-bottom:2rem;
@@ -41,12 +45,6 @@ a:hover {
 .menu-item {
     margin-left:0;
     margin-right:0;
-}
-
-@media (min-width:768px){
-    .logo{text-align:left;}
-    .menu{text-align:right;}
-    .menu-item{margin-left:0.5rem;}
 }
 
 .project-title{
@@ -72,11 +70,6 @@ a:hover {
     line-height:1.5rem;
 }
 
-@media (min-width:960px){
-  .body{margin:auto;}
-  .project-description{margin-left:2rem;}
-}
-
 .img-col-right{
     box-sizing: border-box;
     padding-left:0em;
@@ -87,17 +80,23 @@ a:hover {
     padding-right:0em;
 }
 
-@media (min-width: 576px){
-  .img-col-left{padding-right:1em;}
-  .img-col-right{padding-left:1em;}
-}
-
 .img-row{
     padding-top:1em;
     padding-bottom:1em;
 }
 
-.portrait{
-    width:100%;
+@media (min-width: 576px){
+  .img-col-left{padding-right:1em;}
+  .img-col-right{padding-left:1em;}
 }
 
+@media (min-width:768px){
+    .logo{text-align:left;}
+    .menu{text-align:right;}
+    .menu-item{margin-left:0.5rem;}
+}
+
+@media (min-width:960px){
+  .body{margin:auto;}
+  .project-description{margin-left:2rem;}
+}
