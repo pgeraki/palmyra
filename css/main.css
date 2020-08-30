@@ -33,8 +33,7 @@ body {
 }
 
 .logo img{
-    height:4rem;
-    max-width:100%;
+    max-height:4rem;
     object-fit:scale-down;
 }
 
@@ -100,9 +99,19 @@ body {
   object-fit:scale-down;
 }
 
+.about-left{
+    box-sizing: border-box;
+}
+
+.about-right{
+    box-sizing: border-box;
+}
+
 @media (min-width: 576px){
   .img-col-left{padding-right:0.5rem;}
   .img-col-right{padding-left:0.5rem;}
+  .about-left{padding-right:1rem;}
+  .about-right{padding-left:1rem;}
 }
 
 @media (min-width:768px){
