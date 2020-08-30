@@ -14,17 +14,17 @@ a:hover {
 }	
 
 body {
-    margin-top: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 1em;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
 }
 
 .banner {
-    padding-bottom:1em;
+    padding-bottom:1rem;
     border-bottom:1px solid #EEEEEE;
-    margin-bottom:1em;
+    margin-bottom:1rem;
 }
 
 .logo {
@@ -47,8 +47,8 @@ body {
 }
 
 .menu-item {
-    margin-left:0.3em;
-    margin-right:0.3em;
+    margin-left:0.3rem;
+    margin-right:0.3rem;
 }
 
 .project-title{
@@ -60,31 +60,33 @@ body {
     line-height:1.5rem;
     text-align:justify;
     text-justify:auto;
+    margin-bottom:0.5rem;
 }
 
 .project-description{
+    margin-top:0em;
+    margin-bottom:0em;
     margin-left:0rem;
-    list-style-type:none;
     line-height:1.5rem;
 }
 
 .img-col{
-    margin-top:1em;
-    margin-bottom:1em;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
 }
 
 .img-col-right{
     box-sizing: border-box;
-    padding-top:1em;
-    padding-bottom:1em;
-    padding-left:0em;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:0rem;
 }
 
 .img-col-left{
     box-sizing: border-box;
-    padding-top:1em;
-    padding-bottom:1em;
-    padding-right:0em;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-right:0rem;
 }
 
 .img-row{
@@ -99,17 +101,18 @@ body {
 }
 
 @media (min-width: 576px){
-  .img-col-left{padding-right:1em;}
-  .img-col-right{padding-left:1em;}
+  .img-col-left{padding-right:0.5rem;}
+  .img-col-right{padding-left:0.5rem;}
 }
 
 @media (min-width:768px){
     .logo{text-align:left;}
     .menu{text-align:right; margin-top:2.8rem; margin-bottom:0rem;}
-    .menu-item{margin-left:0.6em; margin-right:0em;}
+    .menu-item{margin-left:0.6rem; margin-right:0rem;}
 }
 
 @media (min-width:960px){
-  .body{margin:auto; width:960px;}
+  .body{margin:auto;    
+        width:960px;}
   .project-description{margin-left:2rem;}
 }
