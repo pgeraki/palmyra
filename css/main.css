@@ -3,43 +3,41 @@
   src: url('../fonts/apercu_light.ttf');
 }
 
-a {
-    text-decoration: none;
-    color: #BBBBBB;
+img {
+    width: 100%;
+    object-fit:fill;
+    display:block;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #333333;
-}	
-
 body {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
     font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
 }
 
-.banner {
-    padding-bottom:1rem;
+.divider {
+    width:100%;
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
     border-bottom:1px solid #EEEEEE;
-    margin-bottom:1rem;
 }
 
 .logo {
-    height:4rem;
-    text-align:center;
+}
+
+.logo a{
+    display:block;
 }
 
 .logo img{
-    max-height:4rem;
-    object-fit:scale-down;
+    height:3.5rem;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;
 }
 
 .menu {
-    margin-top:1.8rem;
-    margin-bottom:0rem;
     font-size:1.2rem;
     line-height:1.2rem;
     text-align:center;
@@ -50,91 +48,95 @@ body {
     margin-right:0.3rem;
 }
 
-.project-title{
+.menu a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #333333;
+}	
+
+.title{
+    margin-bottom:-0.5rem;
     font-size:2rem;
     line-height:2rem;
 }
 
-.project-paragraph{
+.paragraph{
     line-height:1.5rem;
     text-align:justify;
     text-justify:auto;
-    margin-bottom:0.5rem;
-}
-
-.project-description{
-    margin-top:0em;
-    margin-bottom:0em;
-    margin-left:0rem;
-    line-height:1.5rem;
-}
-
-.img-col{
-    margin-top:0.5rem;
-    margin-bottom:0.5rem;
-}
-
-.img-col-right{
-    box-sizing: border-box;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
-    padding-left:0rem;
-}
-
-.img-col-left{
-    box-sizing: border-box;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
-    padding-right:0rem;
-}
-
-.img-row{
-    width:100%;
-    display: flex;
-    align-items: flex-start;
-}
-
-.img-row img {
-  width: 100%;
-  object-fit:scale-down;
-}
-
-.about-left{
-    box-sizing: border-box;
-}
-
-.about-right{
-    box-sizing: border-box;
+    margin-top:-0.25rem;
+    margin-bottom:0.75rem;
+    vertical-align:top;
 }
 
 .about-row{
     flex-direction: column-reverse;
 }
 
+.project-thumb{
+    position:relative;
+}
+
+.project-text{
+    position:absolute;
+    line-height:1rem;
+    font-size:1rem;
+    top: calc(50% - 0.5rem);
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    opacity:0;
+}
+
+.project-thumb:hover img{
+    opacity:.1;
+}
+
+.project-thumb:hover .project-text{
+    opacity:1;
+}
+
 .palmyra-head{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:1em;
-    max-width:250px;
+    max-width:310px;
 }
 
 @media (min-width: 576px){
-  .img-col-left{padding-right:0.5rem;}
-  .img-col-right{padding-left:0.5rem;}
-  body{margin-left:2em; margin-right:2em;}
 }
 
 @media (min-width:768px){
+    body{
+        max-width:1200px; 
+        margin-left:auto; 
+        margin-right:auto;}
     .logo{text-align:left;}
-    .menu{text-align:right; margin-top:2.8rem; margin-bottom:0rem;}
-    .menu-item{margin-left:0.6rem; margin-right:0rem;}
-    .about-left{padding-right:1rem;}
-    .about-right{padding-left:1rem;}
-    .about-row{flex-direction: row;}
-    .palmyra-head{max-width:100%;}
+    .logo img{margin:0;}
+    .menu{
+        height:100%; 
+        text-align:right; 
+        margin-top:auto; 
+        margin-bottom:0rem;}
+    .menu-item{
+        margin-left:0.6rem; 
+        margin-right:0rem;}
+    .about-row{
+        flex-direction:row-reverse;}
+    .palmyra-head{
+        max-width:100%;
+    }
+    .divider{
+        margin-left:.75rem; 
+        margin-right:.75rem;
+    }
 }
 
+
 @media (min-width:960px){
-  .project-description{margin-left:2rem;}
 }
