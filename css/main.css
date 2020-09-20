@@ -127,7 +127,7 @@ body {
         margin-left:0.6rem; 
         margin-right:0rem;}
     .about-row{
-        flex-direction:row-reverse;}
+        flex-direction:row;}
     .palmyra-head{
         max-width:100%;
     }
