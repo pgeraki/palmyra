@@ -89,11 +89,10 @@ body {
 
 .paragraph{
     line-height:1.5rem;
-    text-align:left;
+    text-align:justify;
     text-justify:auto;
     margin-top:-0.25rem;
     margin-bottom:0.75rem;
-    padding-right:1rem;
     vertical-align:top;
 }
 
@@ -136,9 +135,12 @@ body {
 }
 
 @media (min-width: 576px){
+    .paragraph{
+        padding-right:1rem;
+    }
     #Services-Contact{
-    margin-top:-1.5rem;
-  }
+        margin-top:-1.5rem;
+    } 
 }
 
 @media (min-width:768px){
@@ -165,6 +167,9 @@ body {
         margin-left:.75rem; 
         margin-right:.75rem;
     }
+    .paragraph{
+      padding-right:2rem;
+    }  
     #Services-Contact{
       margin-top:0;
     }
