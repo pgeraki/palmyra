@@ -82,12 +82,6 @@ body {
     line-height:2rem;
 }
 
-.practice-heading{
-    padding-top:1rem;
-    line-height:1.2rem;
-    color:#BBBBBB;
-}
-
 .paragraph{
     line-height:1.5rem;
     text-align:left;
@@ -132,6 +126,16 @@ body {
     max-width:310px;
 }
 
+.practice-heading{
+    padding-top:0.5rem;
+    line-height:1.2rem;
+    color:#BBBBBB;
+}
+
+#Services-Contact{
+    margin-top:-1.5rem;
+}
+
 @media (min-width: 576px){
     .paragraph{
         padding-right:1rem;
@@ -165,10 +169,16 @@ body {
     .practice-left{
         padding-right:1rem;
     }  
+   #Services-Contact{
+    margin-top:-1rem;
+  }
 }
 
 @media (min-width:960px){
     .practice-left{
         padding-right:2rem;
-    }  
+    }
+   #Services-Contact{
+    margin-top:0;
+}
 }
