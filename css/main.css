@@ -44,10 +44,14 @@ body {
 }
 
 #Input-Subject{
+    border:0;
+    padding:0;
     width:100%; 
 }
 
 #Input-Body{
+    border:0;
+    padding:0;
     width:100%;
 }
 
