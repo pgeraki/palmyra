@@ -78,9 +78,9 @@ body {
 }
 
 .practice-head{
-    float:left;
-    max-width:200px;
-    margin-right:1rem;
+    width:240px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #Services-Contact{
@@ -171,15 +171,16 @@ body {
     .palmyra-head{
         max-width:100%;
     }
-    .practice-head{
-        max-width:310px;
-    }
     .divider{
         margin-left:.75rem; 
         margin-right:.75rem;
     }
     .practice-left{
         padding-right:1rem;
+    }
+    .practice-head{
+        float:left;
+        margin-right:1.5rem;
     }
    #Services-Contact{
     margin-top:-1rem;
