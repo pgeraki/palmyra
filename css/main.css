@@ -3,6 +3,11 @@
   src: url('../fonts/apercu_light.ttf');
 }
 
+@font-face {
+  font-family: 'Adobe Caslon Pro Regular';
+  src: url('../fonts/Adobe_Caslon_Pro_Regular.ttf');
+}
+
 img {
     width: 100%;
     object-fit:fill;
