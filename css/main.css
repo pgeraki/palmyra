@@ -78,7 +78,8 @@ body {
 
 .practice-heading{
     padding-top:0.5rem;
-    line-height:1.2rem;
+    line-height:2.4rem;
+    font-size:2rem;
     color:#BBBBBB;
 }
 
@@ -114,7 +115,8 @@ body {
 .project-heading{
     padding-top:0.25rem;
     margin-bottom:-0.5rem;
-    line-height:1.2rem;
+    line-height:2rem;
+    font-size:2rem;
     color:#BBBBBB;
 /*  margin-bottom:-0.5rem;
     font-size:2rem;
