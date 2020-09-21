@@ -76,12 +76,6 @@ body {
     color: #333333;
 }	
 
-.title{
-    margin-bottom:-0.5rem;
-    font-size:2rem;
-    line-height:2rem;
-}
-
 .paragraph{
     line-height:1.5rem;
     text-align:left;
@@ -93,6 +87,25 @@ body {
 
 .about-row{
     flex-direction: column-reverse;
+}
+
+.practice-heading{
+    padding-top:0.5rem;
+    line-height:1.2rem;
+    color:#BBBBBB;
+}
+
+#Services-Contact{
+    margin-top:-1rem;
+}
+
+.project-heading{
+    padding-top:0.5rem;
+    line-height:1.2rem;
+    color:#BBBBBB;
+/*  margin-bottom:-0.5rem;
+    font-size:2rem;
+    line-height:2rem;*/
 }
 
 .project-thumb{
@@ -126,15 +139,7 @@ body {
     max-width:310px;
 }
 
-.practice-heading{
-    padding-top:0.5rem;
-    line-height:1.2rem;
-    color:#BBBBBB;
-}
 
-#Services-Contact{
-    margin-top:-1rem;
-}
 
 @media (min-width: 576px){
     .paragraph{
