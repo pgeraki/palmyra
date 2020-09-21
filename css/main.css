@@ -53,6 +53,10 @@ body {
     width:100%;
 }
 
+#Input-Send{
+    width:100%; 
+}
+
 .menu-item {
     margin-left:0.3rem;
     margin-right:0.3rem;
@@ -117,6 +121,9 @@ body {
     margin-right:auto;
     max-width:310px;
 }
+#Services-Contact{
+    padding:0rem;
+}
 
 @media (min-width: 576px){
 }
@@ -147,6 +154,11 @@ body {
     }
 }
 
+@media (max-width:768px){
+  #Services-Contact{
+    padding-top:0rem;
+  }
+}
 
 @media (min-width:960px){
 }
