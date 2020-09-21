@@ -63,6 +63,28 @@ body {
     color: #333333;
 }	
 
+.submenu{
+    text-align:center;
+    font-size:1rem;
+    line-height:1rem;
+    text-align:center;
+}
+
+.submenu-item{
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+.submenu a:hover {
+    text-decoration: none;
+    color: #333333;
+}	
+
 .paragraph{
     line-height:1.5rem;
     text-align:left;
@@ -181,8 +203,20 @@ body {
     .menu-item{
         margin-left:0.6rem; 
         margin-right:0rem;}
+    .submenu{
+        height:100%;
+        text-align:right;
+        margin-top:0rem;
+        margin-bottom:0rem;
+    }
+    .submenu-item{
+        margin-right:0rem;
+        margin-left:0.5rem;
+    }
+  
     .about-row{
         flex-direction:row;}
+  
     .palmyra-head{
         max-width:100%;
     }
