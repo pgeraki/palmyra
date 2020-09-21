@@ -122,10 +122,13 @@ body {
     max-width:310px;
 }
 #Services-Contact{
-    padding:0rem;
+    margin-top:-1rem;
 }
 
 @media (min-width: 576px){
+    #Services-Contact{
+    margin-top:-0.75rem;
+  }
 }
 
 @media (min-width:768px){
@@ -152,12 +155,9 @@ body {
         margin-left:.75rem; 
         margin-right:.75rem;
     }
-}
-
-@media (max-width:768px){
-  #Services-Contact{
-    margin-top:-1rem;
-  }
+    #Services-Contact{
+      margin-top:0;
+    }
 }
 
 @media (min-width:960px){
