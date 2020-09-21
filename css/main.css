@@ -167,7 +167,7 @@ body {
         margin-left:.75rem; 
         margin-right:.75rem;
     }
-    .paragraph-left{
+    .practice-left{
         padding-right:1rem;
     }  
     #Services-Contact{
@@ -176,7 +176,7 @@ body {
 }
 
 @media (min-width:960px){
-    .paragraph-left{
+    .practice-left{
         padding-right:2rem;
     }  
 }
