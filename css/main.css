@@ -43,24 +43,6 @@ body {
     text-align:center;
 }
 
-#Input-Subject{
-    margin-bottom:0.5rem;
-    width:100%; 
-}
-
-#Input-Body{
-    margin-bottom:0.5rem;
-    width:100%;
-}
-
-#Input-Send{
-}
-
-#confirmation-field{
-    opacity:1;
-    transition: 5s opacity;
-}
-
 .menu-item {
     margin-left:0.3rem;
     margin-right:0.3rem;
@@ -99,8 +81,25 @@ body {
     margin-top:-1rem;
 }
 
+#Input-Subject{
+    margin-bottom:0.5rem;
+    width:100%; 
+}
+
+#Input-Body{
+    margin-bottom:0.5rem;
+    width:100%;
+}
+
+#Input-Send{
+}
+
+#confirmation-field{
+    opacity:1;
+    transition: 5s opacity;
+}
+
 .project-heading{
-    padding-top:0.5rem;
     line-height:1.2rem;
     color:#BBBBBB;
 /*  margin-bottom:-0.5rem;
@@ -139,8 +138,6 @@ body {
     max-width:310px;
 }
 
-
-
 @media (min-width: 576px){
     .paragraph{
         padding-right:1rem;
@@ -173,7 +170,7 @@ body {
     }
     .practice-left{
         padding-right:1rem;
-    }  
+    }
    #Services-Contact{
     margin-top:-1rem;
   }
