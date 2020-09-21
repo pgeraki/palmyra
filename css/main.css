@@ -57,7 +57,7 @@ body {
 }
 
 #confirmation-field{
-    transition: 1s opacity;
+    transition: 5s opacity;
 }
 
 .menu-item {
