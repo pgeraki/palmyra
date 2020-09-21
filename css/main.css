@@ -56,6 +56,10 @@ body {
 #Input-Send{
 }
 
+#confirmation-field{
+    transition: 1s opacity;
+}
+
 .menu-item {
     margin-left:0.3rem;
     margin-right:0.3rem;
