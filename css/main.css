@@ -89,11 +89,11 @@ body {
 
 .paragraph{
     line-height:1.5rem;
-    text-align:justify;
+    text-align:left;
     text-justify:auto;
     margin-top:-0.25rem;
     margin-bottom:0.75rem;
-    margin-right:0.5rem;
+    padding-right:1rem;
     vertical-align:top;
 }
 
