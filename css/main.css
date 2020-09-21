@@ -135,9 +135,6 @@ body {
 @media (min-width: 576px){
     .paragraph{
         padding-right:1rem;
-    }
-    #Services-Contact{
-        margin-top:-1.5rem;
     } 
 }
 
