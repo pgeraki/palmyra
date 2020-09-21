@@ -43,6 +43,14 @@ body {
     text-align:center;
 }
 
+#Input-Title{
+    width:100%; 
+}
+
+#Input-Body{
+    height:8rem;
+}
+
 .menu-item {
     margin-left:0.3rem;
     margin-right:0.3rem;
