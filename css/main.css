@@ -80,6 +80,7 @@ body {
 .practice-head{
     float:left;
     max-width:200px;
+    margin-right:1rem;
 }
 
 #Services-Contact{
@@ -171,7 +172,7 @@ body {
         max-width:100%;
     }
     .practice-head{
-        max-width:100%;
+        max-width:310px;
     }
     .divider{
         margin-left:.75rem; 
