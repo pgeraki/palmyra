@@ -116,7 +116,12 @@ body {
     margin-top:-1rem;
 }
 
-#Input-Subject{
+#Input-Name{
+    margin-bottom:0.5rem;
+    width:100%; 
+}
+
+#Input-Email{
     margin-bottom:0.5rem;
     width:100%; 
 }
