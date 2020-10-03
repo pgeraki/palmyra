@@ -8,8 +8,10 @@ permalink: pllc/projects
                       allProjects.forEach(project=>{
                         if(project.classlist.contains(visibleType)){
                             project.style.display = "";
+                            console.log(project);
                         }else{
-                            project.style.display = "none";   
+                            project.style.display = "none";
+                            console.log(project);
                         } 
                       })
                     }       
