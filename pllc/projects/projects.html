@@ -7,7 +7,7 @@ permalink: pllc/projects
                       var allProjects = Array.from(document.getElementsByClassName('project-thumb'));
                       console.log('hello');
                       allProjects.forEach(project=>{
-                        if(project.classlist.contains(visibleType)){
+                        if(project.classList.contains(visibleType)){
                             project.style.display = "";
                             console.log(project);
                         }else{
