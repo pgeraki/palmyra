@@ -152,6 +152,7 @@ body {
 
 .project-thumb{
     position:relative;
+    transition-duration:500ms;
 }
 
 .project-text{
