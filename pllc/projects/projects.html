@@ -5,6 +5,7 @@ permalink: pllc/projects
                 <script>
                     function hideExcept(visibleType){
                       var allProjects = document.getElementsByClassName('project-thumb');
+                      console.log('hello');
                       allProjects.forEach(project=>{
                         if(project.classlist.contains(visibleType)){
                             project.style.display = "";
