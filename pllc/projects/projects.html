@@ -2,19 +2,31 @@
 layout: pllc
 permalink: pllc/projects
 ---
+                <script>
+                    function hideExcept(visibleType){
+                      var allProjects = document.getElementsByClassName('project-thumb');
+                      allProjects.forEach(project=>{
+                        if(project.classlist.contains(visibleType)){
+                            project.style.display = "";
+                        }else{
+                            project.style.display = "none";   
+                        } 
+                      })
+                    }       
+                </script>
                 <div class = "row">
                        <div class="col col-1-1 submenu"> 
-                         <a class="submenu-item" href="./projects">ALL</a>
-                         <a class="submenu-item" href="./projects">RESIDENTIAL</a>
-                         <a class="submenu-item" href="./projects">EXHIBITION</a>
-                         <a class="submenu-item" href="./projects">URBAN</a>
-                         <a class="submenu-item" href="./projects">CULTURAL</a>                         
+                         <a class="submenu-item" href="./projects" onclick="hideExcept('all')">ALL</a>
+                         <a class="submenu-item" href="./projects" onclick="hideExcept('all')">RESIDENTIAL</a>
+                         <a class="submenu-item" href="./projects" onclick="hideExcept('all')">EXHIBITION</a>
+                         <a class="submenu-item" href="./projects" onclick="hideExcept('all')">URBAN</a>
+                         <a class="submenu-item" href="./projects" onclick="hideExcept('all')">CULTURAL</a>                         
                        </div>
                        <div class="divider"></div>
                 </div>
                 <div class="row">
 <!-- copy from here -->
-                   <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb">
+                   <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-exhibition">
                         <div class = "project-text">NOT ALL WHITE WALLS</div>
                         <a href="/palmyra/pllc/cca">
                         <img src="/palmyra/pllc/projects/cca/images/cca_thumbnail.png">
@@ -28,7 +40,7 @@ permalink: pllc/projects
                         </a>
                     </div>
         -->
-                   <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb">
+                   <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential">
                         <div class = "project-text">AGING IN PLACE</div>
                         <a <!--href="/palmyra/pllc/harissi"-->
                         <img src="/palmyra/pllc/projects/harissi/images/harissi_thumbnail.png">
