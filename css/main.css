@@ -83,6 +83,7 @@ body {
 .submenu a:hover {
     text-decoration: none;
     color: #333333;
+    cursor: pointer;
 }	
 
 .paragraph{
@@ -152,8 +153,6 @@ body {
 
 .project-thumb{
     position:relative;
-    transition-duration:500ms;
-    transition-property:all;
 }
 
 .project-text{
